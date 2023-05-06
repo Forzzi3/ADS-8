@@ -10,7 +10,7 @@ class Train {
         Cage *prev;
     };
     int countOp; // счетчик шагов (число переходов из вагона в вагон)
-    Cage *first, *last; // точка входа в поезд (первый вагон)
+    Cage *first; // точка входа в поезд (первый вагон)
 
  public:
     Train();
